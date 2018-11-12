@@ -1,12 +1,11 @@
 #include "main.hpp"
 int main(){
 
-  string name = " ";
-  string age = " ";
-  string yes = " ";
-  string no = " ";
-  //int yearBorn = " ";
-  //int counryBorn = " ";
+  string name;
+  string age;
+    string yes;
+  string no;
+
 
   cout<<"Enter Name";
   cin>>name;
@@ -17,7 +16,7 @@ int main(){
   cout<<"is the information you entered correct (yes/no)?";
   cin>>yes;
   if(yes == "yes"){
-    cout<<"thanks for your cubmission";
+    cout<<"thanks for your submission";
   }else{
     cout<<"fill out your information again";
   }
